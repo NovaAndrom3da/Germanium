@@ -1,3 +1,10 @@
+# <strong>This software is UNRELEASED!</strong>
+This means that there will be bugs and issues that will pop up
+frequently. There are no guarantees that any of this will work
+or work as intended. Although programming help is appreciated,
+please be understanding that this language is still in it's
+alpha stages.
+
 # ⚗ Germanium
 Germanium is an open source, dynamically typed language written
 in python. It focuses on runtime speed, user readability, and
