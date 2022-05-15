@@ -7,9 +7,7 @@ system.
 
 ## 🔬 Getting Started
 ```bash
-git clone https://github.com/Froggo8311/Germanium.git
-cd Germanium
-python tools/install_src.py
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Froggo8311/Germanium/main/tools/web-install.sh)"
 ```
 Using either the prebuilt or the source versions will be different
 for each setup. The compiled interpereter will be more efficient
@@ -36,4 +34,22 @@ For source builds, we reccommend using the
 for the best results and speed, but CPython will also work.
 <strong>Make sure you are using the correct one when running the
 install script, unless you are building from source.</strong>
+
+## ⌨ Examples
+### 🌎 Hello, World!
+```ge
+func main() {
+  print("Hello, world!");
+  if (__version__ == "0.0.0") {
+    print("Germanium is not yet released!");
+  } elif (True == False) {
+    print("True equals false????");
+  } else {
+    print("Germanium is released!");
+  }
+  return "Hello there";
+}
+
+print(main()); ~ "Returns Hello there"
+```
 

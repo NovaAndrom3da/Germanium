@@ -1,0 +1,7 @@
+poetry.lock
+pyproject.toml
+.replit
+replit.nix
+
+.config/
+venv/
