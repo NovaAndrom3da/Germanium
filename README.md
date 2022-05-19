@@ -11,6 +11,11 @@ in python. It focuses on runtime speed, user readability, and
 cross-compatibility. It offers both a compiled and Just-In-Time
 system.
 
+## 🤨 Why Germanium?
+Germanium is written in a way to be easily minified and quickly
+processed. It is also written to improve program developers' 
+experiences with programming by providing an easy-to-write but
+feature-filled language.
 
 ## 🔬 Getting Started
 ```bash
@@ -45,18 +50,37 @@ install script, unless you are building from source.</strong>
 ## ⌨ Examples
 ### 🌎 Hello, World!
 ```ge
-func main() {
-  print("Hello, world!");
-  if (__version__ == "0.0.0") {
-    print("Germanium is not yet released!");
-  } elif (True == False) {
-    print("True equals false????");
+~ This is a comment
+print("Hello, World!");
+```
+
+### ➰ Functions & Return Statements
+```ge
+func myFunc(a as Bool = true) {
+  if (a) {
+    return "Yes";
   } else {
-    print("Germanium is released!");
+    return "No";
   }
-  return "Hello there";
 }
 
-print(main()); ~ "Returns Hello there"
+print(myFunc(true)); ~ "Yes"
+print(myFunc(false)); ~ "No"
+```
+
+### ➿ Loops
+```ge
+func loop() {
+  while (true) {
+    print("This only runs once.");
+    break;
+  }
+  
+  myList = ["a", "b", "c", 1, 2, 3];
+  for (i in myList) {
+    print(i); ~ Prints:  0  1  2  3  4  5
+    print(myList[i]); ~ Prints:  a  b  c  1  2  3
+  }
+}
 ```
 
