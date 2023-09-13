@@ -1,9 +1,6 @@
-# <strong>This software is UNRELEASED!</strong>
-This means that there will be bugs and issues that will pop up
-frequently. There are no guarantees that any of this will work
-or work as intended. Although programming help is appreciated,
-please be understanding that this language is still in it's
-alpha stages.
+# <strong>This software is DISCONTINUED!</strong>
+There is a project rewrite under a new name, sol, available
+[here](https://codeberg.org/rehuman/sol).
 
 # ⚗ Germanium
 Germanium is an open source, dynamically typed language written
